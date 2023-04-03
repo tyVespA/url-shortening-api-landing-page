@@ -2,7 +2,6 @@
   display: flex;
   align-items: center;
   gap: 50px;
-  padding: 50px;
   color: var(--grayish-violet);
 }
 
@@ -34,11 +33,4 @@
 .buttons {
   display: flex;
   gap: 15px;
-}
-
-.buttons button {
-  border: transparent;
-  cursor: pointer;
-  color: var(--grayish-violet);
-  padding-block: 10px;
 }

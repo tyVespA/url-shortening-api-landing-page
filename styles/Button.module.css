@@ -1,0 +1,6 @@
+.customButton {
+  border: transparent;
+  cursor: pointer;
+  color: var(--grayish-violet);
+  padding-block: 10px;
+}

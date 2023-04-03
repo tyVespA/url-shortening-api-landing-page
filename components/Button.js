@@ -1,10 +1,12 @@
 import React from "react";
+import styles from "../styles/Button.module.css";
 
 export default function Button({
   children = "button",
   backgroundColorValue,
   borderRadiusType = "5px",
   paddingInline = "20px",
+  fontSize,
 }) {
   const backgroundColor =
     backgroundColorValue === "cyan" ? "var(--cyan)" : "transparent";
@@ -12,8 +14,8 @@ export default function Button({
   const borderRadius = borderRadiusType === "rounded" ? "30px" : "5px";
   return (
     <button
-      style={{ backgroundColor, color, borderRadius, paddingInline }}
-      className="customButton"
+      style={{ backgroundColor, color, borderRadius, paddingInline, fontSize }}
+      className={styles.customButton}
     >
       {children}
     </button>

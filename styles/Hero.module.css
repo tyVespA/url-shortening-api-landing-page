@@ -1,0 +1,17 @@
+.heroContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-block: 80px;
+}
+
+.heroContainer h1 {
+  font-size: 4.5rem;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  color: var(--violet-600);
+}
+
+.heroContainer p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}

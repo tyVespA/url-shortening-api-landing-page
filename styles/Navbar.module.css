@@ -23,6 +23,14 @@
   list-style-type: none;
 }
 
+.navAndBtns a {
+  transition: color 0.5s;
+}
+
+.navAndBtns a:hover {
+  color: var(--blue-800);
+}
+
 .buttons {
   display: flex;
   gap: 15px;

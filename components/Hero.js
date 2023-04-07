@@ -2,6 +2,7 @@ import React from "react";
 import styles from "../styles/Hero.module.css";
 import Image from "next/image";
 import Button from "./Button";
+import Layout from "./Layout";
 
 export default function Hero() {
   return (
@@ -9,8 +10,8 @@ export default function Hero() {
       <div className={styles.heroText}>
         <h1>More than just shorter links</h1>
         <p>
-          Build your brand’s recognition and get detailed insights on how your
-          links are performing.
+          Build your brand’s recognition and get detailed <br /> insights on how
+          your links are performing.
         </p>
         <Button
           backgroundColorValue="cyan"
@@ -21,7 +22,13 @@ export default function Hero() {
           Get started
         </Button>
       </div>
-      <div className={styles.heroImage}></div>
+      <div className={styles.heroImage}>
+        <Image
+          src="/images/illustration-working.svg"
+          width={733}
+          height={482}
+        ></Image>
+      </div>
     </div>
   );
 }

@@ -1,0 +1,23 @@
+.inputContainer {
+  background-color: var(--violet-600);
+  border-radius: var(--border-radius-low);
+}
+
+.inputContainer form {
+  display: flex;
+  gap: 30px;
+  padding: 40px;
+}
+
+.inputContainer input {
+  border-radius: var(--border-radius-low);
+  border: transparent;
+  height: 50px;
+  width: 100%;
+  text-indent: 25px;
+}
+
+.inputContainer button {
+  border-radius: var(--border-radius-low);
+  width: 180px;
+}

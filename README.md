@@ -4,6 +4,7 @@
 
 ## TODOs
 
+- refractor Button styles
 - add hover effect on buttons depending on backgroundColor
 
 ## Getting Started

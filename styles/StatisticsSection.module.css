@@ -1,8 +1,16 @@
 .statisticsSection {
   padding-top: 50px;
   padding-bottom: 100px;
+}
+
+.statisticsSection h2,
+.statisticsDescription {
   text-align: center;
 }
 
 .statisticsCards {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
 }

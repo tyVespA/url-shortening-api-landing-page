@@ -1,0 +1,21 @@
+.statisticsCard {
+  background-color: white;
+  border-radius: var(--border-radius-low);
+  padding: 70px 30px 40px 30px;
+  position: relative;
+}
+
+.iconContainer {
+  position: absolute;
+  top: 0;
+  transform: translateY(-50%);
+
+  background-color: var(--violet-600);
+  display: inline-block;
+  border-radius: 99px;
+  padding: 20px;
+}
+
+.statisticsCard h3 {
+  margin-bottom: 20px;
+}

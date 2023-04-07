@@ -103,6 +103,16 @@ body {
   background-color: var(--light-grey);
 }
 
+.purpleBg {
+  background-color: var(--violet-600);
+  color: white;
+}
+
+.darkBg {
+  background-color: var(--violet-800);
+  color: white;
+}
+
 /*
   INPUT SECTION
 */

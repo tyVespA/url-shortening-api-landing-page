@@ -1,0 +1,7 @@
+.footerContainer {
+  padding-block: 50px;
+}
+
+.footerContainer svg {
+  fill: white;
+}

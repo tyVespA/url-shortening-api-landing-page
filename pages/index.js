@@ -5,6 +5,7 @@ import Layout from "@/components/Layout";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Input from "@/components/Input";
+import StatisticsSection from "@/components/StatisticsSection";
 
 export default function Home() {
   return (
@@ -21,12 +22,14 @@ export default function Home() {
           <Hero />
         </section>
       </Layout>
-      <section className="inputSection grayBg">
+      <section className="grayBg">
         <div className="inputContainer">
           <Input />
         </div>
       </section>
-      <section className="statisticsSection grayBg"></section>
+      <section className=" grayBg">
+        <StatisticsSection />
+      </section>
     </>
   );
 }

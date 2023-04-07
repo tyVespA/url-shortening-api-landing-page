@@ -6,6 +6,8 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Input from "@/components/Input";
 import StatisticsSection from "@/components/StatisticsSection";
+import FooterCTA from "@/components/FooterCTA";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -30,6 +32,13 @@ export default function Home() {
       <section className=" grayBg">
         <StatisticsSection />
       </section>
+      <section className="purpleBg">
+        <FooterCTA />
+      </section>
+      <footer className="darkBg">
+        {" "}
+        <Footer />
+      </footer>
     </>
   );
 }

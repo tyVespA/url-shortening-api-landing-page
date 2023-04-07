@@ -3,6 +3,7 @@
   align-items: center;
   gap: 50px;
   color: var(--grayish-violet);
+  padding-block: 50px;
 }
 
 .navAndBtns {

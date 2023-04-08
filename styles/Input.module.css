@@ -1,6 +1,7 @@
 .inputContainer {
   background-color: var(--violet-600);
   border-radius: var(--border-radius-low);
+  margin-bottom: -45px;
 }
 
 .inputContainer form {

@@ -4,8 +4,8 @@
 
 ## TODOs
 
-- refractor Button styles
-- add hover effect on buttons depending on backgroundColor
+- add logic to Shorten it button (add link to an array and map it rendering ShortenedLink)
+- media queries
 
 ## Getting Started
 

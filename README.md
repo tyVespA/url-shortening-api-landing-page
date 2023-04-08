@@ -4,7 +4,16 @@
 
 ## TODOs
 
-- add logic to Shorten it button (add link to an array and map it rendering ShortenedLink)
+- add logic to Shorten it button:
+
+  - set linkValue and setLinkValue in index.js
+  - set linksArray and setLinksArray in index.js
+  - pass them in Input.js
+  - on form submit linkValue is added to an linksArray
+  - on form submit, in ShortenedLinksContainer.js the array will be mapped rendering a ShortenedLink for each link
+
+  - how to shorten link?
+
 - media queries
 
 ## Getting Started

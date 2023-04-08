@@ -2,9 +2,15 @@ import React from "react";
 import Button from "./Button";
 import styles from "../styles/ShortenedLink.module.css";
 import { useRef } from "react";
+import { useState } from "react";
 
 export default function ShortenedLink({ fullLink, shortenedLink = "test" }) {
   const linkRef = useRef(null);
+  const [buttonText, setButtonText] = useState("Copy");
+
+  function changeButtonText() {
+    setButtonText("Copied");
+  }
 
   function copyToClipBoard() {
     const link = linkRef.current;
@@ -12,7 +18,6 @@ export default function ShortenedLink({ fullLink, shortenedLink = "test" }) {
     link.select();
     link.setSelectionRange(0, 99999);
     navigator.clipboard.writeText(link.value);
-    console.log("copied");
   }
   return (
     <div className={styles.shortenedLinkContainer}>
@@ -30,8 +35,16 @@ export default function ShortenedLink({ fullLink, shortenedLink = "test" }) {
             disabled
           />
         </p>
-        <div className={styles.buttonContainer} onClick={copyToClipBoard}>
-          <Button backgroundColorValue="cyan">Copy</Button>
+        <div
+          className={styles.buttonContainer}
+          onClick={() => {
+            copyToClipBoard();
+            changeButtonText();
+          }}
+        >
+          <Button backgroundColorValue="cyan" width="100px">
+            {buttonText}
+          </Button>
         </div>
       </div>
     </div>

@@ -57,7 +57,7 @@ h6 {
   --grayish-violet: hsl(257, 7%, 63%);
   --blue-800: hsl(255, 11%, 22%);
   --violet-800: hsl(260, 8%, 14%);
-  --light-grey: hsl(231, 28%, 95%);
+  --light-gray: hsl(231, 28%, 95%);
   --border-radius-low: 10px;
 }
 
@@ -100,7 +100,7 @@ body {
 }
 
 .grayBg {
-  background-color: var(--light-grey);
+  background-color: var(--light-gray);
 }
 
 .purpleBg {

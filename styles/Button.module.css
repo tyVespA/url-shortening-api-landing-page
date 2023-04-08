@@ -3,4 +3,9 @@
   cursor: pointer;
   color: var(--grayish-violet);
   padding-block: 10px;
+  transition: all 0.2s;
+}
+
+.customButton:hover {
+  filter: brightness(1.15);
 }

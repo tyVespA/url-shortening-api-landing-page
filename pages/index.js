@@ -5,6 +5,7 @@ import Layout from "@/components/Layout";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Input from "@/components/Input";
+import ShortenedLinksContainer from "@/components/ShortenedLinksContainer";
 import StatisticsSection from "@/components/StatisticsSection";
 import FooterCTA from "@/components/FooterCTA";
 import Footer from "@/components/Footer";
@@ -25,9 +26,12 @@ export default function Home() {
         </section>
       </Layout>
       <section className="grayBg">
-        <div className="inputContainer">
-          <Input />
-        </div>
+        <Layout>
+          <div className="inputContainer">
+            <Input />
+          </div>
+          <ShortenedLinksContainer></ShortenedLinksContainer>
+        </Layout>
       </section>
       <section className=" grayBg">
         <StatisticsSection />

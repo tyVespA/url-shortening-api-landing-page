@@ -12,3 +12,14 @@
   align-items: center;
   gap: 30px;
 }
+
+.shortenedLink {
+  border: none;
+  background-color: transparent;
+  font-size: inherit;
+  color: inherit;
+  width: auto;
+  /* width: 100%; */
+  display: inline;
+  cursor: text;
+}

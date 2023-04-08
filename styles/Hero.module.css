@@ -3,7 +3,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 50px;
   padding-block: 80px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 .heroText {
@@ -38,7 +38,7 @@
   object-fit: cover;
   position: absolute;
   right: -150px;
-  left: 0;
+  /* left: 50px; */
   /* transform: scale(1.3); */
   /* top: 0; */
 }

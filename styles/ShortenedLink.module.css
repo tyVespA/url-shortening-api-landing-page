@@ -1,0 +1,14 @@
+.shortenedLinkContainer {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  border-radius: var(--border-radius-low);
+}
+
+.shortenedLinkContainer div {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}

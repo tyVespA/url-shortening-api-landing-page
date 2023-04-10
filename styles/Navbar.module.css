@@ -1,5 +1,6 @@
 .header {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   gap: 50px;
   color: var(--grayish-violet);
@@ -34,4 +35,54 @@
 .buttons {
   display: flex;
   gap: 15px;
+}
+
+.hamburgerButton {
+  cursor: pointer;
+  border: transparent;
+  background-color: transparent;
+}
+
+.hamburgerButton img {
+  transition: all 0.2s;
+}
+
+.hamburgerButton img:hover,
+.hamburgerButton img:focus {
+  filter: contrast(0.5);
+}
+
+@media screen and (min-width: 900px) {
+  .hamburgerButton {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .hamburgerButton {
+    display: block;
+  }
+
+  .header {
+    position: relative;
+  }
+
+  .navAndBtns {
+    /* background-color: white; */
+    text-align: center;
+    position: absolute;
+    flex-direction: column;
+    top: 50px;
+    left: 600px;
+  }
+  .navAndBtns ul {
+    gap: 10px;
+  }
+  .buttons {
+    gap: 0;
+  }
+  .navAndBtns ul,
+  .buttons {
+    flex-direction: column;
+  }
 }

@@ -10,8 +10,8 @@ export default function Hero() {
       <div className={styles.heroText}>
         <h1>More than just shorter links</h1>
         <p>
-          Build your brand’s recognition and get detailed <br /> insights on how
-          your links are performing.
+          Build your brand’s recognition and get detailed insights on how your
+          links are performing.
         </p>
         <Button
           backgroundColorValue="cyan"

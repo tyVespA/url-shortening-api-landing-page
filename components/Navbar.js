@@ -24,7 +24,12 @@ export default function Navbar() {
   return (
     <>
       <nav className={styles.header}>
-        <Image src="/images/logo.svg" width={121} height={33} />
+        <Image
+          src="/images/logo.svg"
+          width={121}
+          height={33}
+          alt="Company's logo"
+        />
         <div
           className={`${styles.navAndBtns} ${slidedIn ? styles.slidedIn : ""}`}
         >

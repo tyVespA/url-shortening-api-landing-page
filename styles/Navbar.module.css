@@ -12,6 +12,7 @@
   width: 100%;
   justify-content: space-between;
   align-items: center;
+  transition: transform 0.2s ease-in-out;
 }
 
 .navAndBtns ul {
@@ -52,6 +53,10 @@
   filter: contrast(0.5);
 }
 
+.navAndBtns.slidedIn {
+  transform: translateX(0);
+}
+
 @media screen and (min-width: 900px) {
   .hamburgerButton {
     display: none;
@@ -68,18 +73,30 @@
   }
 
   .navAndBtns {
-    /* background-color: white; */
+    background-color: #3a3053;
     text-align: center;
     position: absolute;
+    border-radius: var(--border-radius-low);
     flex-direction: column;
-    top: 50px;
-    left: 600px;
+    top: 110px;
+    padding: 30px;
+    z-index: 1;
+    transform: translateX(120%);
   }
   .navAndBtns ul {
-    gap: 10px;
+    width: 100%;
+    gap: 20px;
+    color: white;
+    padding-bottom: 25px;
+    border-bottom: 1px solid var(--gray);
   }
   .buttons {
-    gap: 0;
+    padding-top: 15px;
+    gap: 10px;
+  }
+  .navAndBtns .buttons button {
+    color: white;
+    width: 100%;
   }
   .navAndBtns ul,
   .buttons {

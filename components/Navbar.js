@@ -3,6 +3,7 @@ import styles from "../styles/Navbar.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import { useEffect } from "react";
 import Button from "./Button";
 
 export default function Navbar() {
@@ -11,6 +12,15 @@ export default function Navbar() {
   function slideIn() {
     setSlidedIn(!slidedIn);
   }
+
+  useEffect(() => {
+    if (slidedIn) {
+      document.body.style.overflow = `hidden`;
+    } else {
+      document.body.style.overflow = `auto`;
+    }
+  }, [slidedIn]);
+
   return (
     <>
       <nav className={styles.header}>

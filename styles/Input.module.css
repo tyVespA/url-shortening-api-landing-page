@@ -22,3 +22,15 @@
   border-radius: var(--border-radius-low);
   width: 180px;
 }
+
+@media screen and (max-width: 900px) {
+  .inputContainer form {
+    flex-direction: column;
+    padding: 25px;
+  }
+  .inputContainer button {
+    font-weight: 605;
+    padding: 15px;
+    width: 100%;
+  }
+}

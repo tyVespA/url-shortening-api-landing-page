@@ -32,6 +32,14 @@ export default function Navbar() {
             </Button>
           </div>
         </div>
+        <button className={styles.hamburgerButton}>
+          <Image
+            src="/images/menu-icon.svg"
+            width={40}
+            height={40}
+            alt="Menu button"
+          />
+        </button>
       </nav>
     </>
   );

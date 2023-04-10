@@ -96,10 +96,10 @@
   .buttons {
     padding-top: 15px;
     gap: 10px;
+    width: 100%;
   }
   .navAndBtns .buttons button {
     color: white;
-    width: 100%;
   }
   .navAndBtns ul,
   .buttons {

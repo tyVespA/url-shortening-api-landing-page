@@ -50,3 +50,19 @@
   width: 100%;
   height: 5px;
 }
+
+@media screen and (max-width: 950px) {
+  .statisticsDescription {
+    max-width: 90%;
+  }
+  .statisticsCards {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .statisticsCards h3 {
+    font-size: 1.4rem;
+  }
+  .statisticsCards > div {
+    height: auto;
+  }
+}

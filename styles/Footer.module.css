@@ -54,3 +54,16 @@
   filter: invert(61%) sepia(98%) saturate(373%) hue-rotate(129deg)
     brightness(98%) contrast(81%);
 }
+
+@media screen and (max-width: 950px) {
+  .footerContainer {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .footerLinks {
+    flex-direction: column;
+  }
+  .footerNavColumn {
+    padding-bottom: 30px;
+  }
+}

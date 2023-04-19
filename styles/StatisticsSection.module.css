@@ -65,4 +65,15 @@
   .statisticsCards > div {
     height: auto;
   }
+  .statisticsCards::after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    background-color: var(--cyan);
+    height: 100%;
+    width: 5px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }

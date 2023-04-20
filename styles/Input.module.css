@@ -2,6 +2,9 @@
   background-color: var(--violet-600);
   border-radius: var(--border-radius-low);
   margin-bottom: -45px;
+  background-image: url("/images/bg-shorten-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .inputContainer form {
@@ -24,6 +27,11 @@
 }
 
 @media screen and (max-width: 900px) {
+  .inputContainer {
+    background-image: url("/images/bg-shorten-mobile.svg");
+    background-position: right 0px;
+    background-size: auto;
+  }
   .inputContainer form {
     flex-direction: column;
     padding: 25px;

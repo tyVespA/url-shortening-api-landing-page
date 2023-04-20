@@ -1,6 +1,10 @@
 .footerCTA {
   text-align: center;
   padding-block: 60px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footerCTA h2 {

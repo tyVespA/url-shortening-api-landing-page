@@ -106,6 +106,16 @@ body {
 .purpleBg {
   background-color: var(--violet-600);
   color: white;
+  background-image: url("/images/bg-boost-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media screen and (max-width: 950px) {
+  .purpleBg {
+    background-image: url("/images/bg-boost-mobile.svg");
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+  }
 }
 
 .darkBg {

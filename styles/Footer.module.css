@@ -60,10 +60,18 @@
     grid-template-columns: 1fr;
     text-align: center;
   }
+  .footerContainer > img {
+    margin-inline: auto;
+    margin-bottom: 40px;
+  }
   .footerLinks {
     flex-direction: column;
+    margin-bottom: 10px;
   }
   .footerNavColumn {
     padding-bottom: 30px;
+  }
+  .socialIcons {
+    margin-inline: auto;
   }
 }
